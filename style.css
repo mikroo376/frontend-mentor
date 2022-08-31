@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
     /* Colors */
     --light-gray: hsl(212, 45%, 89%);
@@ -23,7 +22,6 @@ body {
     font-family: 'Outfit', sans-serif;
     
 }
-
 .qrcode-container {
     height: 470px;
     width: 300px;
@@ -36,12 +34,10 @@ body {
 .qrcode-img-container {
     padding: 15px;
 }
-
 .qrcode-img {
     width: 100%;
     border-radius: 10px;
 }
-
 .qrcode-title {
     font-size: 20px;
     text-align: center;
