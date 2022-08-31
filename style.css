@@ -25,8 +25,8 @@ body {
 }
 
 .qrcode-container {
-    height: 50vh;
-    width: 80vw;
+    height: 470px;
+    width: 300px;
     background-color: var(--white);
     display: flex;
     flex-direction: column;
@@ -52,17 +52,4 @@ body {
     color: var(--grayish-blue);
     text-align: center;
     padding: 0 20px 15px 20px;
-}
-
-@media (min-width: 1440px){
-    .qrcode-container {
-        width: 21vw;
-    }
-
-    .qrcode-title {
-        padding: 0 30px 15px 30px;
-    }
-    .qrcode-desc {
-        padding: 0 30px 15px 30px;
-    }
 }
